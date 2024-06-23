@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/tic_tac_toe.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/api/tic_tac_toe", "dest": "api/tic_tac_toe.py" }
+    ]
+  }
+  
